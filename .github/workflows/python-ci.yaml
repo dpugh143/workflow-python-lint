@@ -9,6 +9,7 @@ on:
 
 jobs:
   ci:
+    name: Code Quality
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
